@@ -1,4 +1,6 @@
-def describe_person(name, age=30):
-    return f'Имя: {name}, возраст: {age}'
-name = str(input("Введите ваше имя: "))
-print(describe_person(name))
+def max_of_two(x, y):
+    return max(x, y)
+number_1 = int(input("Введите первое чило: "))
+number_2 = int(input("Введите второе число: "))
+print(f'Максимальное число: {max_of_two(number_1, number_2)}')
+
