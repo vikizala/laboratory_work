@@ -1,4 +1,8 @@
-text = str(input("Введите текст: "))
-with open('Text File.txt', 'a', encoding="utf-8") as file:
-    end_text = file.write(text)
-print(end_text)
+with open('Text File.txt', 'r') as file:
+    for line in file:
+        print(line.strip())
+        # print(line.split('.')[0])
+    # print(file.read(90))
+    # content = file.read()
+    # words = content.split()
+    # print(','.join(words))

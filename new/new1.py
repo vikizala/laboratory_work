@@ -1,2 +1,2 @@
-d = [1, 5, 43]
-h = 'hello'
+def cum(a, b):
+    return a + b
